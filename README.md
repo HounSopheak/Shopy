@@ -11,3 +11,8 @@ npm run dev
 ```
 
 Create a production build with `npm run build` from the `react` directory. Checkout and newsletter signup are demo interactions; no orders or subscriptions are sent.
+
+## Live site
+
+The storefront is published with GitHub Pages at <https://hounsopheak.github.io/Shopy/>.
+Updates to the `main` branch automatically build and deploy the React app.

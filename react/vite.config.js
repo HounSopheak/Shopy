@@ -8,9 +8,10 @@ const projectDirectory = path.dirname(fileURLToPath(import.meta.url));
 export default defineConfig({
   plugins: [react()],
   root: projectDirectory,
+  base: "/Shopy/",
   server: {
     fs: {
-      allow: [path.resolve(projectDirectory, "..")]
-    }
-  }
+      allow: [path.resolve(projectDirectory, "..")],
+    },
+  },
 });
